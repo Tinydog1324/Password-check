@@ -1,0 +1,65 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+  .validation-message {
+  color: #FF5252;
+  margin-bottom: 10px;
+}
+
+.valid-mark {
+  display: none;
+  color: #66BB6A;
+  margin-left: 5px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  flex-basis: 120px;
+  margin-right: 5px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.criteria-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.criteria-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.criteria-icon {
+  margin-right: 5px;
+}
+
+.criteria-text {
+  flex: 1;
+}

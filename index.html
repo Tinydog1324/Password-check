@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Set Your Password</h2>
+        <form>
+          <div class="input-container">
+            <label for="password">Password:</label>
+            <input type="password" id="password" oninput="validatePassword()" />
+            <span id="valid" class="valid-mark">&#10004;</span>
+          </div>
+          <ul class="criteria-list">
+            <li class="criteria-item">
+              <span id="length" class="validation-message">Must be at least 8 characters long</span>
+            </li>
+            <li class="criteria-item">
+              <span id="uppercase" class="validation-message">Must contain an uppercase letter</span>
+            </li>
+            <li class="criteria-item">
+              <span id="symbol" class="validation-message">Must contain a symbol (!@#$%^&*)</span>
+            </li>
+          </ul>
+        </form>
+        <script src="script.js"></script>
+</body>
+</html>
